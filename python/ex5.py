@@ -1,5 +1,5 @@
-# 字符串：用 "" 把一些文本括起来就创建了一个字符串："text"
-# 字符串可以作为值赋给变量
+# 字符串中的变量
+
 my_name = "Zed A .Shaw"
 my_age = 35 # not a lie
 my_height = 74 # inches
@@ -8,10 +8,8 @@ my_eyes = "blue"
 my_teeth = "white"
 my_hair = "brown"
 
-# 格式化字符串(format string)：把字符串内的变量返回对应的值
-# 用 {} 可以将变量嵌入字符串内
-# 字符串可以通过 print() 函数被打印出来
-print (f"Let's talk about {my_name}.")
+
+print (f"Let's talk about {my_name}.") # 等于 print("Let's talk about", my_name)
 print (f"he's {my_height} inche tall.")
 print (f"he's {my_weight} ponuds heavy.")
 print ("Actually that's not too heavy.")
@@ -25,3 +23,12 @@ print (f"If I add {my_age},{my_height}, and {my_weight} I get {total}.")
 
 print ("my height =", 74 * 2.54, "cm.")
 print ("my weight =", 180 * 0.4536, "kg.")
+
+# 字符串：用 "" 把一些文本括起来就创建了一个字符串："text"
+# 字符串可以作为值赋给变量
+
+# 用 {} 将变量括起来可以将变量嵌入字符串内
+
+# 格式化字符串(format string)：把字符串内的变量返回对应的值
+
+# 字符串可以通过 print() 函数被打印出来
