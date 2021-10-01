@@ -27,7 +27,8 @@ print ("Is it less or equal?", 5 <= -2) #False
 print ("Let's get some floating number")
 print (5.0 + 6.0 * 900)
 
-print ("Is it greater?", 5 > -2, "What is 3 + 2?", 3 + 2, 5.0 + 6.0 * 900)
+print ("1) Is it greater?", 5 > -2, "2) What is 3 + 2?", 3 + 2, "3)", 5.0 + 6.0 * 900)
+# 多个语句之间用 ，分隔
 
 # (2) print()函数体中可直接进行数字运算（整型、浮点型）并打印出结果
 # (3) print()函数可以对数学命题真假进行询问并得到答案："True" or "False"
