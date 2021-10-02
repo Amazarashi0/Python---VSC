@@ -16,12 +16,10 @@ joke_evaluation = "Is't that joke so funny? {}!"
 
 print (joke_evaluation. format (hilarious)) # 另一种格式化方法
 
-z = "Thoese who know {} and thoese who {}."
-
-print (z. format (binary), format (do_not))
-
 
 w = "This is the left side of..."
 e = "a string with a right side."
 
-print (w + e) # 用 + 使两个字符串连接
+print (w + e)
+
+# () print()函数中可以用 + 使两个字符串顺序相接
