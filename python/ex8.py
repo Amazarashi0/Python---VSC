@@ -11,6 +11,9 @@ print(formatter.format(
     "or a song about fear"
 ))
 
+Pats = "{} {} {} {}"
+print("I have some pats, such as: ",Pats.format("a cat、", "a dog、", "a rat", "and a pag"))
+
 # 函数(function)：formatter.format(...)
 # (1)取定义的formatter字符串；
 # (2)调用它的format函数，这相当于告诉它执行一个叫作format的命令行命令；
