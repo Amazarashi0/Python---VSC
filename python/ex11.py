@@ -1,3 +1,5 @@
+# 提问-用户输入
+
 print("How old are you?", end = "")
 age = input()
 print("How tall are you?", end = "")

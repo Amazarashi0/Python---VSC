@@ -15,3 +15,7 @@ print("Your third variable is:", third)
 
 ### 一旦程序用到argv，要注意调用程序时必须添加完整的命令行参数。
 # 例如该程序需要传递3个命令行参数：python ex13.py first 2nd 3rd
+
+# 输入参数的区别：input & argv
+# input：调用程序后脚本运行过程中用户输入参数
+# argv：命令行调用程序时输入
