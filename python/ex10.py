@@ -15,7 +15,7 @@ print(backlah_cat)
 print(fat_cat)
 
 
-#转义字符：
+#转义序列(escape sequence)：
 # \\ 反斜杠(\)
 # \' 单引号
 # \" 双引号

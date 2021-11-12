@@ -24,7 +24,7 @@ print (f"If I add {my_age},{my_height}, and {my_weight} I get {total}.")
 print ("my height =", 74 * 2.54, "cm.")
 print ("my weight =", 180 * 0.4536, "kg.")
 
-# 字符串：用 "" 把一些文本括起来就创建了一个字符串："text"
+# 字符串(string)：用 "" 把一些文本括起来就创建了一个字符串："text"
 # 字符串可以作为值赋给变量
 
 # 用 {} 将变量括起来可以将变量嵌入字符串内
