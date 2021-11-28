@@ -11,8 +11,8 @@ there's something going on here.
 With the there double-quotes.
 We'll be able to type as much as we like.
 Even 4 lines if we wnat, or 5, or 6.
-""")
+""") # 引号所在为第一行和最后一行
 
 # 多行字符串：
 # (1)换行字符放在新行开头；
-# (2)在三引号（""" """）之间放入任意多行文本。引号所在为第一行和最后一行。
+# (2)在三引号（""" """）之间放入任意多行文本。。
