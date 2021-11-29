@@ -13,7 +13,7 @@ file_agan = input("> ")
 # 输入参数：接收输入的参数（文件名），并且返回一个值，将这个值赋值给一个变量file_agan
 
 txt_agan = open(file_agan)
-# 打开文件：open接收一个参数，并返回一个值，将这个值赋值给一个变量txt_agan（通过变量file_agan将input接收的参数传递给open函数）
+# 打开文件：open接收一个参数，并返回一个值（文件对象 file object），将这个值赋值给一个变量txt_agan（通过变量file_agan将input接收的参数传递给open函数）
 
 print(txt_agan.read())
 # 读取文件：在该变量(txt)上调用一个read函数，并打印出读取的内容。
