@@ -24,6 +24,7 @@ print ("three are", 100, "cars available.")
 # “=”：为变量赋值。将右边的值赋给左边的变量名
 # "=="：检查左右两边的值是否相等
 
+# python -m pydoc print
 # # # Help on built-in function print in module builtins:
 # print(...)
 #    print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
