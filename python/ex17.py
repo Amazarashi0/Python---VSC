@@ -1,5 +1,5 @@
 from sys import argv
-from os.path import FileExistsError
+from os.path import exists
 
 script, from_file, to_file = argv
 
@@ -22,3 +22,8 @@ print("Alright, all done.")
 
 out_file.close()
 in_file.close()
+
+# (first make a sample file)
+# echo "This is a test file" >ex17test.txt
+# (then look at it)
+# cat ex17_test.txt
