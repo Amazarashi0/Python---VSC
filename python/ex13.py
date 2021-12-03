@@ -1,6 +1,6 @@
-from sys import argv
+from sys import argv # 导入模组及参数
 # read the WYSS section for how to run this
-sciript, first, second = argv
+sciript, first, second = argv # 将参数解包
 print("the script is callde:", script)
 print("Your first variable is:", first)
 print("Your second variable is:", second)
